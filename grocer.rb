@@ -15,7 +15,6 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  index = 0 
   coupons.each do |coupon|
     item = coupon[:item]
     cost = coupon[:cost]
